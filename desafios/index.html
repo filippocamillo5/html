@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escritório</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/justica.ico" type="image/x-icon">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+        }
+
+        .container{
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        
+        header{
+            background-color: rgb(150, 150, 247);
+            color: whitesmoke;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .title{
+            font-size: 26px;
+        }
+
+        body{
+            background-color: black;
+        }
+
+        section{
+            padding: 20px;
+            background-image: url(images/escri-moderno.jpg);
+            background-size: cover;
+            overflow: hidden;
+            
+        }
+
+        .form-container{
+            max-width: 230px;
+            background-color: #ffffffbb;
+            padding: 20px;
+            float: right;
+        }
+
+
+        h2{
+            font-size: 16px;
+        }
+        
+        .mb{
+            margin-bottom: 15px;
+        }
+
+        input, select{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            border: none;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"]{
+            color: white;
+            background-color: rgb(105, 105, 243);
+            font-weight: bold;
+        }
+
+        select{
+            appearance: none;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            -ms-progress-appearance: none;
+
+            background-image: url(images/arrow.jpg);
+            background-repeat: no-repeat;
+            background-position-x: calc(100% - 10px);
+            background-position-y: center;
+        }
+        
+        footer{
+            background-color: #202121;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .picture{
+            width: 190px;
+            
+        }
+
+        .description{
+            color: white;
+            display: inline-block;
+            max-width: 40%;
+            margin-left: 40px;
+            text-align: left;
+
+        }
+
+        .description p, .description h3{
+            margin-bottom: 20px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            
+            .form-container{
+            max-width: 230px;
+            background-color: #ffffffbb;
+            padding: 20px;
+            margin-right: 21%;
+        }
+
+        .picture{
+            margin-bottom: 50%;
+        }
+ 
+        
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 class="title"> Dra. Eliane Lorega Guimarães</h1>
+        
+        </header>
+        <section>
+        
+                <div class="form-container">
+                    <h2 class="mb">Escritório especializado em direito trabalhista. À 20 anos auxiliando empresas e pessoas físicas.</h2>
+                    <p class="mb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur minus voluptates adipisci et! Ratione deleniti cupiditate est veritatis quis quia architecto. Nulla ratione tenetur explicabo sit, numquam at odio.</p>
+                    <form action="">
+                        <input type="text" name="name" id="name" placeholder="nome"><br>
+                        <input type="text" name="email" id="email" placeholder="email"><br>
+                        <select name="place" >
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="MG">Minhas Gerais</option>
+                        </select><br>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+        </section>
+        <footer>
+            <img class="picture" src="images/lili.jpg" alt="">
+
+            <div class="description">
+                <h3>A Adovogada</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor error, alias recusandae veniam, cumque quae reprehenderit unde aliquam assumenda porro velit totam soluta quas explicabo nihil. Sequi quod repudiandae corporis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, aspernatur vitae ducimus in alias quaerat consectetur commodi blanditiis laudantium consequatur minima laboriosam eum maiores voluptatem provident aperiam fugit totam adipisci.</p>
+            </div>
+        </footer>
+
+        
+    </div>
+
+    
+</body>
+</html>yuuj
